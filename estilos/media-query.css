@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width:991px) {
+
+    :root{
+        --azul: #424CDB;
+        --azul-claro: #3D78F2;
+        --azul-escuro: #1a1f64;
+        --roxo: #623DF2;
+        --rosa: #8E3AE8;
+    }
+
+    main{
+        background-image: linear-gradient(to bottom, var(--azul), var(--azul-escuro), var(--roxo), var(--rosa));
+        background-repeat: no-repeat;
+    }
+    #login{
+        width: 80vw;
+        height: 300px;
+    }
+    #formulario{
+        float: right;
+        width: 65%;
+    }
+    section#login> div#imagem{
+        float: left;
+        width: 30%;
+        height: 100%;
+        border-radius: 20px 0px 0px 20px;
+    }
+
+    }
+
+@media screen and (min-width: 992px) {
+    :root{
+        --azul: #424CDB;
+        --azul-claro: #3D78F2;
+        --azul-escuro: #1a1f64;
+        --roxo: #623DF2;
+        --rosa: #8E3AE8;
+    }
+
+    main {
+        background-image: linear-gradient(to bottom, var(--azul), var(--azul-escuro), var(--roxo), var(--rosa));
+        background-repeat: no-repeat;
+    }
+    section#login {
+        width: 990px;
+        height: 400px;
+    }
+    section#login > div#imagem {
+        float: right;
+        width: 50%;
+        height: 100%;
+        border-radius: 0px 20px 20px 0px;
+   
+    }
+    section#login > div#formulário {
+        float: left;
+        width: 50%;
+        
+    }
+    #formulario{
+        width: 50%;
+    }
+    #formulario > p{
+        font-size: 1.2em;
+
+        
+        
+    }
+    
+    
+    
+}
+
